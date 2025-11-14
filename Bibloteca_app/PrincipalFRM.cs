@@ -23,5 +23,19 @@ namespace Bibloteca_app
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void EditorialBtn_clic(object sender, EventArgs e)
+        {
+            EditorialesFRM frm = new EditorialesFRM();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void AutoresButton_Click(object sender, EventArgs e)
+        {
+            AutoresFRM fRM = new AutoresFRM();
+            fRM.MdiParent = this;
+            fRM.Show();
+        }
     }
 }

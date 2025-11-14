@@ -76,8 +76,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AutoresFRM.resx">
+      <DependentUpon>AutoresFRM.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CategoriasFRM.resx">
       <DependentUpon>CategoriasFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditorialesFRM.resx">
+      <DependentUpon>EditorialesFRM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PrincipalFRM.resx">
       <DependentUpon>PrincipalFRM.cs</DependentUpon>
