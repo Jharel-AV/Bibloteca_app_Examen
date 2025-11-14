@@ -42,7 +42,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dtAutores = new System.Windows.Forms.DataGridView();
-            this.txtFecha = new System.Windows.Forms.TextBox();
+            this.txtFecha = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -202,10 +202,12 @@
             // 
             // txtFecha
             // 
-            this.txtFecha.Location = new System.Drawing.Point(22, 137);
+            this.txtFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.txtFecha.Location = new System.Drawing.Point(16, 137);
             this.txtFecha.Name = "txtFecha";
-            this.txtFecha.Size = new System.Drawing.Size(100, 22);
-            this.txtFecha.TabIndex = 9;
+            this.txtFecha.Size = new System.Drawing.Size(200, 22);
+            this.txtFecha.TabIndex = 0;
+            this.txtFecha.Value = new System.DateTime(2025, 11, 14, 0, 0, 0, 0);
             // 
             // AutoresFRM
             // 
@@ -242,6 +244,6 @@
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.DataGridView dtAutores;
-        private System.Windows.Forms.TextBox txtFecha;
+        private System.Windows.Forms.DateTimePicker txtFecha;
     }
 }

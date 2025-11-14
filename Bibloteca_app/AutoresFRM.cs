@@ -33,7 +33,6 @@ namespace Bibloteca_app
         {
             txtNombres.Clear();
             txtApellidos.Clear();
-            txtFecha.Clear();
             txtPais.Clear();
             txtBiografia.Clear();
             id = 0;
@@ -42,7 +41,8 @@ namespace Bibloteca_app
         {
             string nombres = txtNombres.Text;
             string apellidos = txtApellidos.Text;
-            string fecha_nacimiento = txtFecha.Text;
+            string dateAutores = txtFecha.Value.ToString("yyyy-MM-dd");
+            string fecha_nacimiento = dateAutores;
             string pais = txtPais.Text;
             string biografia = txtBiografia.Text;
             bool resultado = false;
