@@ -591,7 +591,7 @@
   <data name="toolStripButton1.Text" xml:space="preserve">
     <value>Autores</value>
   </data>
-  <data name="toolStripButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnCategorias.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAYAAAA+s9J6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABehSURBVHhe7Z1vyCXVfcftm+ALG0OthK1IF4xZ+gfzj2ox
@@ -698,13 +698,13 @@
         w4a+hG2UGIgfb+w2rFb/B8+Y8mgJRnmHAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="toolStripButton3.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+  <data name="btnCategorias.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
-  <data name="toolStripButton3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="btnCategorias.Size" type="System.Drawing.Size, System.Drawing">
     <value>83, 22</value>
   </data>
-  <data name="toolStripButton3.Text" xml:space="preserve">
+  <data name="btnCategorias.Text" xml:space="preserve">
     <value>Categorias</value>
   </data>
   <data name="toolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -1813,10 +1813,10 @@
   <data name="&gt;&gt;toolStripButton1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripButton3.Name" xml:space="preserve">
-    <value>toolStripButton3</value>
+  <data name="&gt;&gt;btnCategorias.Name" xml:space="preserve">
+    <value>btnCategorias</value>
   </data>
-  <data name="&gt;&gt;toolStripButton3.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnCategorias.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripButton2.Name" xml:space="preserve">

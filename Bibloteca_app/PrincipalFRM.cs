@@ -16,5 +16,12 @@ namespace Bibloteca_app
         {
             InitializeComponent();
         }
+
+        private void CategoriasBtn_clic(object sender, EventArgs e)
+        {
+            CategoriasFRM frm = new CategoriasFRM();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }
